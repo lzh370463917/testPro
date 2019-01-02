@@ -1,6 +1,5 @@
 <template>
     <div id="app">
-        <div class="box1">opop</div>
         <router-view />
     </div>
 </template>
@@ -22,9 +21,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-.box1 {
-  height: 100px;
-  /* background: url("./assets/logo.png") no-repeat; */
 }
 </style>
