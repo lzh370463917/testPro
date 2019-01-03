@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div>www</div>
 </template>
 <script>
 export default {
