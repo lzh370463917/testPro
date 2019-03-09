@@ -6,6 +6,7 @@ import router from './router';
 import store from './store/index';
 import mintUi from 'mint-ui';
 import '@/assets/less/reset.css';
+import '@/assets/less/common.less';
 import 'mint-ui/lib/style.css';
 import 'lib-flexible/flexible';
 Vue.use(mintUi);

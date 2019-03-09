@@ -4,6 +4,7 @@ const Dashboard = () => import ('../container/dashboard');
 const My = () => import ('../container/my');
 const Home = () => import ('../container/home');
 const Classify = () => import ('../container/classify');
+const Detail = () => import ('../container/detail');
 
 Vue.use(Router);
 
@@ -31,6 +32,11 @@ export default new Router({
                     component: Home
                 }
             ]
+        },
+        {
+            path: '/detail',
+            name: 'detail',
+            component: Detail
         }
     ]
 });
